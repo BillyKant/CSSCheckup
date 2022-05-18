@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>CSS Checkup</title>
+</head>
+<body>
+
+    <header class="selections" id="header">
+                <p id="header1">
+                    <a href="https://en.wikipedia.org/wiki/Farm" id="home"> <label for="home">Home</label></a>
+                    <a href="https://www.deere.com/en/?CID=SEM_Res_enUS_Dcom_RLE&source=GOOGLE&medium=cpc&account=rle&campaign=General+Deere+Terms_Exact&adgroup=JOHN+DEERE+KWD_Exact&keyword=john+deere&gclid=Cj0KCQjwspKUBhCvARIsAB2IYuuaJmZ5pAFqoP4Abb9Jcb3UeuDNf5DY4SF_V7x3XIiAxEKZzACYkGMaAn2wEALw_wcB&gclsrc=aw.ds" id="menu"><label for="menu">Menu</label></a>
+                </p>
+                <p id="header2">
+                    <label for="searchBar" id="search-label">Search:</label>
+                    <input type="search" id="searchBar" placeholder="Search here...">
+                </p>
+    </header>
+    <hr>
+
+    <div id="wrapper1">
+        <div id="title">
+            <h1>Kantor Farms</h1>
+        </div>
+
+        <div id="picture">
+            <img src="./assets/cattle.jpg" alt="Group of calfs looking into camera" height="250px" width="300px">
+        </div>
+    </div>
+
+    <div id="items">
+        <h2>Products</h2>
+        <ul>
+            <li><img src="./assets/corn.jpg" alt="Corn" height="200px" width="250px"></li>
+            <li><img src="./assets/soy-beans.jpg" alt="Soybeans" height="200px" width="250px"></li>
+            <li><img src="./assets/beef.jpg" alt="Beef" height="200px" width="250px"></li>
+            <li><img src="./assets/hay-bale.jpg" alt="hay" height="200px" width="250px"></li>
+        </ul>
+    </div>
+
+    <div id="order" name=""products>
+        <fieldset>
+            <legend>Order</legend>
+            <section>
+                <input type="checkbox" name="products" id="Corn">
+                <label for="Corn">Corn</label>
+            </section>
+            <section>
+                <input type="checkbox" name="products" id="Soybeans">
+                <label for="Soybeans">Soybeans</label>
+            </section>
+            <section>
+                <input type="checkbox" name="products" id="Beef">
+                <label for="Beef">Beef</label>
+            </section>
+            <section>
+                <input type="checkbox" name="products" id="Hay">
+                <label for="Hay">Hay</label>
+            </section>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </div>
+
+    <footer class="selections" id="footer">
+        <p>&copy; Billy Kantor</p>
+        <p>Contact me: <a href="mailto:kantorwg@gmail.com">kantorwg@gmail.com</a></p>
+    </footer>
+</body>
+</html>

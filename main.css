@@ -1,0 +1,61 @@
+body {
+    background-image: url(./assets/field.jpg);
+    background-color: #cccccc;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.selections {
+    background-color: forestgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header1 {
+    padding-left: 2vw;
+}
+
+#home {
+    color: bisque;
+    padding: 1vw;
+}
+
+#menu {
+    color: bisque;
+}
+
+#header2 {
+    padding-right: 2vw;
+}
+
+#search-label {
+    padding: 1vw;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+#picture {
+    display: flex;
+    justify-content: center;
+    margin: 50 vw;
+}
+
+#wrapper1 {
+    background-color: skyblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+fieldset {
+    display: inline-block;
+    background-color: yellow;
+}
