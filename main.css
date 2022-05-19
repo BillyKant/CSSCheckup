@@ -1,7 +1,8 @@
 body {
-    background-image: url(./assets/field.jpg);
-    background-color: #cccccc;
-    image-rendering: -webkit-optimize-contrast;
+    background-image: url(./assets/field\ 2.jpg);
+    /* background-color: #cccccc; */
+    background-size: cover;
+    background-position: center;
 }
 
 .selections {
@@ -33,18 +34,27 @@ body {
     padding: 1vw;
 }
 
+#wrapper1 {
+    background-color: skyblue;
+    height: 50vh;
+}
+
 #title {
     display: flex;
     justify-content: center;
 }
+
 #picture {
     display: flex;
     justify-content: center;
-    margin: 50 vw;
+    /* margin: 50 vw;
+    padding: 5vh, 5vw, 5vh, 5vw; */
+    /* border: 2vh, 2vw, 2vh, 2vw; */
 }
 
-#wrapper1 {
-    background-color: skyblue;
+
+#wrapper2 {
+    display: inline-flex;
 }
 
 ul {
@@ -52,10 +62,22 @@ ul {
 }
 
 ul > li {
-    display: inline-block;
+    display: inline-flex;
+}
+
+#order {
+    
 }
 
 fieldset {
     display: inline-block;
     background-color: yellow;
+}
+
+#copy {
+    padding-left: 2vw;
+}
+
+#contact-email {
+    padding-right: 2vw;
 }
